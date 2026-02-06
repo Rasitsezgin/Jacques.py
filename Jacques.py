@@ -6,9 +6,9 @@ import threading
 from queue import Queue
 
 # Hedef IP, kullanıcı adı ve parola dosya yollarını buradan alıyoruz
-target_ip = "10.0.2.10"  # Hedef IP adresi
-id_path = "/home/kali/Desktop/id4"  # Kullanıcı adı dosyasının yolu
-sifre_path = "/home/kali/Desktop/sifre4"  # Parola dosyasının yolu
+target_ip = "https://example.com/"  # Hedef 
+id_path = "/usr/share/wordlists/id"  # Kullanıcı adı dosyasının yolu
+sifre_path = "/usr/share/wordlists/pass"  # Parola dosyasının yolu
 
 # FTP brute force fonksiyonu
 def ftp_brute_force(target, user, password):
