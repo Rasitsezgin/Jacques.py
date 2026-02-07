@@ -6,7 +6,7 @@ import threading
 from queue import Queue
 
 # Hedef IP, kullanıcı adı ve parola dosya yollarını buradan alıyoruz
-target_ip = "https://example.com/"  # Hedef 
+target_ip = "https://example.com/"  # Hedef  
 id_path = "/usr/share/wordlists/id"  # Kullanıcı adı dosyasının yolu
 sifre_path = "/usr/share/wordlists/pass"  # Parola dosyasının yolu
 
